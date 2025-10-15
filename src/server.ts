@@ -11,7 +11,7 @@ const app = express();
 const nanoid = customAlphabet('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789', 7);
 
 // --- Middleware ---
-app.use(cors({ origin: '*', methods: ['GET', 'POST'] })); // ✅ Use this line // Allows your Next.js app to talk to this API
+app.use(cors({ origin: '*', methods: ['GET', 'POST', 'OPTIONS'] })); // ✅ Use this line // Allows your Next.js app to talk to this API
 app.use(express.json());
 
 // --- Routes ---

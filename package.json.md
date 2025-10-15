@@ -1,3 +1,9 @@
+<!-- // deploy version
+    "build": "chmod +x ./node_modules/.bin/tsc && npx tsc",
+    "start": "node dist/server.js" -->
+
+<!-- //local version that works -->
+
 {
   "name": "url-shortener-api",
   "version": "1.0.0",
